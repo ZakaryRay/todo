@@ -2,7 +2,15 @@
     font-family: "Lexend";
     src: url("assets/font/Lexend-Regular.ttf") format("truetype");
 }
+@font-face {
+    font-family: "Lexend-thin";
+    src: url(assets/font/Lexend-Thin.ttf) format("truetype");
+}
 
 body {
     font-family: "Lexend", sans-serif;
+}
+
+.thin {
+    font-family: "Lexend-thin", sans-serif;
 }

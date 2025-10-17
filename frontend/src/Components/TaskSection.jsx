@@ -1,10 +1,10 @@
 import React from "react";
-import Task from "./Task";
+import TaskCard from "./TaskCard";
 
 const TodoTask = () => {
     return (
         <>
-            <Task />
+            <TaskCard />
         </>
     );
 };

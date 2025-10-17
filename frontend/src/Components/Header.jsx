@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = () => {
     return (
-        <div className="flex justify-center bg-gradient-to-br  from-amber-500  to-yellow-500">
-            <h1 className="font-bold text-3xl p-10 capitalize">todo-app</h1>
+        <div className="sticky  flex justify-center bg-gradient-to-br  from-[#FFCC00]  to-[#E29715] shadow-lg shadow-gray-400">
+            <h1 className="thin text-5xl p-8 text-white">TODO</h1>
         </div>
     );
 };

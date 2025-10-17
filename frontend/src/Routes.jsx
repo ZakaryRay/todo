@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Acceuil from "./Pages/Acceuil";
+import Add from "./Pages/Add";
 
 const routes = createBrowserRouter([
     {
@@ -12,6 +13,7 @@ const routes = createBrowserRouter([
                 path: "/",
                 element: <Acceuil />,
             },
+            { path: "/add", element: <Add /> },
         ],
     },
 ]);
